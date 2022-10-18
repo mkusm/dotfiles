@@ -15,7 +15,7 @@
 	name = Michał Kuśmierczyk
 
 [core]
-	editor = vim
+	editor = nvim
 	excludesfile = ~/.gitignore
 
 [diff]

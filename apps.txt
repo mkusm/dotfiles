@@ -1,0 +1,4 @@
+git
+tmux
+nvim
+fish + ohmyfish

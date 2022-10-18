@@ -31,9 +31,9 @@ fish_vi_key_bindings
 set -Ux EDITOR vim
 
 # Tapped left shift acts as CTRL+B
-if ! pgrep xcape > /dev/null
-  xcape -e 'Shift_R=Control_L|B'
-end
+#if ! pgrep xcape > /dev/null
+#  xcape -e 'Shift_R=Control_L|B'
+#end
 
 set PATH /snap/bin /home/mk/.local/bin $PATH
 
@@ -42,3 +42,6 @@ clear
 function fish_right_prompt
    #intentionally left blank
 end
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/mk/apps/google-cloud-sdk/path.fish.inc' ]; . '/home/mk/apps/google-cloud-sdk/path.fish.inc'; end
